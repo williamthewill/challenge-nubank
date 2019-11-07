@@ -1,0 +1,21 @@
+{
+  "name": "nubank_challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index",
+    "test": "find ./test -name '*.js' -exec ./node_modules/.bin/mocha -u tdd \\{} \\;"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^8.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
+}
